@@ -16,6 +16,7 @@ describe('Home page - Fetch', () => {
 
     // El primer post debe tener título y cuerpo
     cy.get('li').first().within(() => {
+      // no debe estar vacío
       cy.get('h2').should('not.be.empty')
       cy.get('p').should('not.be.empty')
     })

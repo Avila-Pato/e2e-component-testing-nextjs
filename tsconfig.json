@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-  ],
+, "cypress/e2e/app.fetch.jsx"  ],
   "exclude": ["node_modules"]
 }
